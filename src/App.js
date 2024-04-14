@@ -18,12 +18,17 @@ function App() {
   };
 
   return (
+    <div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
     <div className="App">
       {currentPage === 'list' ? (
         <ProductList onProductClick={handleProductClick} />
       ) : (
         <ProductDetails productId={selectedProductId} goBack={handleGoBack} />
       )}
+    </div>
     </div>
   );
 }

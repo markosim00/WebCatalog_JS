@@ -24,6 +24,9 @@ const ProductList = ({ onProductClick }) => {
 
   return (
     <div>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <ul className="product-list">
         <h1>Product list</h1>
         {products.map(product => (

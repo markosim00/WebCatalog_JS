@@ -56,6 +56,10 @@ const ProductDetails = ({ productId, goBack }) => {
   }
 
   return (
+   <div>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
     <div className="product-details">
       <strong>
       <h2 className="title">{product.title}</h2>
@@ -129,6 +133,7 @@ const ProductDetails = ({ productId, goBack }) => {
         </div>
       )}
     </div>
+   </div>
   );
 };
 
