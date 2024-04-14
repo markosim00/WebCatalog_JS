@@ -239,23 +239,23 @@ table {
       left: 10%;
       width: 70%; 
       padding: 10px; 
-    }
+    }*/
 
     .description {
         position: relative;
         left: 20%;
         width: 70%;
-    }*/
+    }
 
     .price-and-discount {
         top: 10%;
-        right: 10%;
+        right: 2%;
         font-size: 20px;
     }
 
     .go-back-button {
         top: 10%;
-        left: 10%;
+        left: 0%;
     }
 
   }
